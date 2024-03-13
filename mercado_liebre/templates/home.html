@@ -1,2 +1,11 @@
 
-hola
+{% extends 'layouts/layout.html' %}
+{% block content %}
+<h1>Productos en Mercado Liebre</h1>
+<ul>
+    {% for producto in productos %}
+        <li><a href="{% url 'detalle_producto' producto.id %}">{{ producto.nombre }}</a></li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

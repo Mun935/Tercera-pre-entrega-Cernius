@@ -1,0 +1,12 @@
+
+{% extends 'layouts/layout.html' %}
+{% block content %}
+
+<h1>Categorías de Productos</h1>
+    <ul>
+        {% for categoria in categorias %}
+            <li>{{ categoria.nombre }}</li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends 'layouts/layout.html' %}
+{% block content %}
+
+
+<h1>{{ producto.nombre }}</h1>
+<p><strong>Descripción:</strong> {{ producto.descripcion }}</p>
+<p><strong>Precio:</strong> ${{ producto.precio }}</p>
+<a href="{% url 'home' %}">Volver al inicio</a>
+
+{% endblock %}

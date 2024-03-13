@@ -1,0 +1,12 @@
+
+
+{% extends 'layouts/layout.html' %}
+{% block content %}
+<h2>Resultados de búsqueda para "{{ termino_busqueda }}"</h2>
+<ul>
+    {% for producto in resultados %}
+        <li>{{ producto.nombre }}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
