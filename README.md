@@ -10,7 +10,7 @@ El objetivo de este proyecto es crear una plataforma similar a Mercado Libre, pe
 
 El proyecto sigue la estructura típica de un proyecto Django:
 
-- `nuevoproyecto`: Carpeta principal del proyecto Django.
+- `nuevo_proyecto`: Carpeta principal del proyecto Django.
 - `mercado_liebre`: Aplicación principal que contiene la lógica del proyecto.
   - `models.py`: Define los modelos de la base de datos.
   - `views.py`: Contiene las vistas de Django para manejar las solicitudes del usuario.
